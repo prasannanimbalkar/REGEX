@@ -1,4 +1,4 @@
-# REGEX
+# User Regex
 
 To use the regular expression for matching a username in JavaScript, you can use the test method of the RegExp object. Here is an example of how you could use it to validate a username:
 
@@ -23,3 +23,7 @@ const usernameRegex = /^[a-zA-Z0-9._-]{3,16}$/;
 const matches = text.match(usernameRegex);
 console.log(matches); // ["john.doe", "jane.doe"]
 This would output an array containing the two username matches found in the text.
+
+
+
+# Password Regex
